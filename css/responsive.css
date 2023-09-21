@@ -348,7 +348,13 @@
 
 @media (max-width: 767px) {
   .swiperContentMain{
-    height: auto;
+    height: 70vh;
+  }
+  .mainSwiper{
+    height: fit-content;
+  }
+  .mainSwiper{
+    margin-top: 40px;
   }
   .swiperContentMain .swiper-slide {
     height: auto;
@@ -356,12 +362,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   .mainLogo {
     transform: translateY(-20%);
   }
   .swiperContentMain .swiper-slide img {
     width: 100%;
+    height: auto;
   }
   .header-one .top-header {
     padding-bottom: 0;
